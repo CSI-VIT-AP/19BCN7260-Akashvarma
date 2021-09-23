@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+@font-face {
+    font-family: 'punchlime';
+    src: url(/fonts/punchline_galimatias/Punchline&Galimatias\ 1_PersonalUseOnly.ttf);
+}
+@font-face {
+    font-family: 'cavernous';
+    src: url(/fonts/cavernous_shadows/CavernousShadows.ttf);
+}
+@font-face {
+    font-family: 'power_breakfast';
+    src: url(/fonts/power_breakfast/Power\ Breakfast\ DEMO.otf);
+}
+@font-face {
+    font-family: 'slouchy_brush';
+    src: url(/fonts/slouchy_brush/Slouchy\ Brush.ttf);
+}
+@font-face {
+    font-family: 'golden_hopes';
+    src: url(/fonts/golden_hopes/GoldenHopes_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: 'chibiux';
+    src: url(/fonts/chibiux/Chibiux.otf);
+}
+@font-face {
+    font-family: 'utroligt';
+    src: url(/fonts/utroligt/Utroligt\ DEMO.otf);
+}
+@font-face {
+    font-family: 'bentang';
+    src: url(/fonts/bentang/Bentang.ttf);
+}
+body{
+    background-color: #fff;
+    background-image:
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+   
+    background-size: 100% 1.2em;
+    margin:0rem 0rem;
+    
+}
+header{
+    padding-top: 10rem;
+    
+    background-image: url(/images/Absurd-Illustrations/Absurd-Illustrations/Absurd-Illustrations/PNG/03.png);
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y:5rem ;
+    padding-bottom: 5rem;
+
+}
+.sub-head{
+   
+    color: black;
+    font-family: golden_hopes;
+    font-size: 2rem;
+    padding-left: 18rem;
+    margin-bottom: 0rem;
+}
+.main-heading{
+    font-family: chibiux;
+    font-size: 11rem;
+    margin-top: 0rem;
+    color:#e5383b;
+    font-weight: bold;
+    padding-left: 15rem;
+    
+}
+
+
+.nav-bar{
+    align-items: flex-end;
+    display: block;
+    margin: 0rem;
+    margin-top: 0rem;
+    
+    
+}
+
+.list-navbar{
+    list-style: none;
+    text-align: right;
+    padding-right: 1rem;
+    background-color: #e5383b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+}
+.list-navbar .list-inline{
+    display: inline;
+    font-family: power_breakfast;
+    font-size: 1.5rem;
+    padding: 0rem 1rem;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link-active{
+    color: white;
+    font-size: 1.7rem;
+}
+.button{
+  
+    border-radius: 1rem;
+    font-family:power_breakfast ;
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+}
+.heading{
+    font-family: slouchy_brush;
+    text-align: center;
+    font-size: 5rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+}
+
+.para{
+    font-family: chibiux;
+    max-width: 60rem;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+}
